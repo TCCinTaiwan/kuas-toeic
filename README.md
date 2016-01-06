@@ -58,3 +58,7 @@ Install Step:
     sudo apt-get install ttf-wqy-zenhei xfonts-wqy ttf-arphic-ukai ttf-arphic-uming ttf-arphic-newsung
     sudo apt-get install fonts-cwtex-*
     sudo fc-cache -v
+
+Start Step:
+
+    ./start
