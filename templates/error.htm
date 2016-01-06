@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block title %}
+            <title>Toeic 自動填充題</title>
+            <link rel='icon' type='image/png' href="{{ url_for('static', filename='favicon.png') }}">
+        {% endblock %}
+    </head>
+    <body>
+        <h2>錯誤 - {{ error }}</h2>
+        <a href=''><input type='button' value='重試' /></a><br/>
+        <img  src='{{ screenshot }}.png'/>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+#!/bin/bash
+xvfb-run --server-args="-screen 0, 950x560x24" python3 toeic.py

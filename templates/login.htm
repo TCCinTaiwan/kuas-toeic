@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block title %}
+            <title>Toeic 自動填充題</title>
+            <link rel='icon' type='image/png' href="{{ url_for('static', filename='favicon.png') }}">
+        {% endblock %}
+    </head>
+    <body>
+        <h2>Toeic 自動填充題</h2>
+        <form action="" method="post" style='box-align: center'> <!--指向app.route的路徑-->
+            帳號：<input type="text" name="user"/><span style="color: red;">*</span><br/>
+            密碼：<input type="password" name="pwd"/><span style="color: red;">*</span><br/>
+            測驗：<select name="test">
+                <option value="simulation">模擬測驗</option>
+                <option value="elective_simulation">模擬測驗[選修模式]</option>
+                <option value="make_subjust">混題測驗</option>
+                <option value="elective_make_subjust">混題測驗[選修模式]</option>
+            </select><br/>
+            選修編號：<input type="number" name="elective" min="1" value="1" style="width: 30px;" /><div style="color: orange;">(選修編號指的是選單第幾個選修，1是開放課程，其他是之後其他課程)</div><br/>
+            <img src="{{ url_for('static', filename='about.png') }}" /><br/>
+            測驗編號：<input type="number" name="number" min="1" value="1" style="width: 30px;" /><div style="color: green;">(測驗編號指的是選單第幾個測驗，不知道就保留預設)</div><br/>
+            飆幾大題：<input type="number" name="score" min="0" max="7" value="0" style="width: 30px;" /><div style="color: red;">(假如為零，沒意外就會滿分)</div><br/>
+            使用考古題：<input type="checkbox" name="previous" checked /><div style="color: red;">(測試中)</div><br/><br/>
+            <input type="submit" name="submit" style="width: 200px;height: 40px" value="送出"/>
+        </form>
+    </body>
+</html>
