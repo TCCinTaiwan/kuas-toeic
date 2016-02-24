@@ -1,4 +1,4 @@
-# KUAS TOEIC 990
+# [KUAS TOEIC 990](https://github.com/TCCinTaiwan/kuas-toeic)
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -28,7 +28,6 @@
                         `OooO' `OooO' `OooO'                        
                                                              by TCC 
 Welcome!!
-[Github](https://github.com/TCCinTaiwan/kuas-toeic)
 ## Install Step:
 1. Install Flask and Selenium
 
