@@ -27,6 +27,7 @@
                         `OooO' `OooO' `OooO'                        
                                                              by TCC 
 Welcome!!
+[Github](https://github.com/TCCinTaiwan/kuas-toeic)
 Install Step:
 1.Install Flask and Selenium
 
