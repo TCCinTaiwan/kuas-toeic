@@ -1,3 +1,4 @@
+# KUAS TOEIC 990
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -28,23 +29,23 @@
                                                              by TCC 
 Welcome!!
 [Github](https://github.com/TCCinTaiwan/kuas-toeic)
-Install Step:
-1.Install Flask and Selenium
+## Install Step:
+1. Install Flask and Selenium
 
     sudo pip3 install flask selenium
 
-2.Install Google Chrome
+2. Install Google Chrome
 
     sudo apt-get install libxss1 libappindicator1 libindicator7
     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
     sudo dpkg -i google-chrome*.deb
     sudo apt-get install -f
 
-3.Install Xvfb
+3. Install Xvfb
 
     sudo apt-get install xvfb
 
-4.Install ChromeDriver
+4. Install ChromeDriver
 
     sudo apt-get install unzip
     wget -N http://chromedriver.storage.googleapis.com/2.20/chromedriver_linux64.zip
@@ -54,12 +55,12 @@ Install Step:
     sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
     sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 
-5.Install 中文字型(文鼎PL新宋,UMing,UKai,cwTex)
+5. Install 中文字型(文鼎PL新宋,UMing,UKai,cwTex)
 
     sudo apt-get install ttf-wqy-zenhei xfonts-wqy ttf-arphic-ukai ttf-arphic-uming ttf-arphic-newsung
     sudo apt-get install fonts-cwtex-*
     sudo fc-cache -v
 
-Start Step:
+## Start Step:
 
     ./start
